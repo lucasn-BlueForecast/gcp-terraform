@@ -18,7 +18,7 @@ resource "google_storage_bucket" "Teste_bucker" {
 }
 
 provider "google" {
-  project = var.project_id  
-  region  = var.region       
+  project = "projetoteste-469520" 
+  region  = "us-central1"       
   credentials = file("Key.json")
 }
